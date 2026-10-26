@@ -12,7 +12,7 @@ export class Verification {
   accessCode: string = '';
   errorMessage: string = '';
 
-  private readonly correctCode = '1234';
+  private readonly correctCode = '9781';
 
   constructor(private router: Router) {}
 
