@@ -1,0 +1,25 @@
+<div class="verification-container">
+  <div class="verification-card">
+    <div class="lock-icon">🔐</div>
+
+    <h1>Practical Works Portal</h1>
+    <p>Enter your 4-digit access code to continue.</p>
+
+    <form (ngSubmit)="verifyCode()">
+      <label for="accessCode">Access Code</label>
+
+      <input id="accessCode" [(ngModel)]="accessCode" name="accessCode" type="password" inputmode="numeric"
+        maxlength="4" autocomplete="off" placeholder="Enter 4-digit code" required />
+
+      @if(errorMessage){
+      <p class="error-message">{{ errorMessage }}</p>
+      }
+
+
+
+      <button type="submit">Verify &amp; Continue</button>
+    </form>
+
+    <p class="footer-text">Authorized access only</p>
+  </div>
+</div>
