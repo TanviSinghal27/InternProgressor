@@ -55,10 +55,10 @@ export class Dashboard {
     },
     {
       number: 7,
-      title: 'Assignment 7',
-      description: 'Under Developement',
-      icon: '🚀',
-      url: 'https://example.com',
+      title: 'Item Nest',
+      description: 'Assignment 7: Angular Service Assignment',
+      icon: '🛒🛍️',
+      url: 'https://item-nest.vercel.app/',
     },
     {
       number: 8,
