@@ -62,10 +62,10 @@ export class Dashboard {
     },
     {
       number: 8,
-      title: 'Assignment 8',
-      description: 'Under Developement',
-      icon: '🚀',
-      url: 'https://example.com',
+      title: 'Inventory Hub',
+      description: 'Assignment 8: Mini Inventory Management',
+      icon: '🏛',
+      url: 'https://inventory-hub-tan-nine.vercel.app/',
     },
   ];
 
